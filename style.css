@@ -6,13 +6,12 @@ body{
     color: white;
     font-family: 'Overpass', sans-serif;
     margin: 0 auto;
-    display: flex;
 }
 
 div.active-state{
     background-color: hsl(213, 19%, 18%);
     border-radius: 20px;
-    margin: 10%;
+    margin: 100px auto;
     width: 350px;
     height: 350px;
     display: block;
@@ -53,7 +52,7 @@ button#submit {
 div.thank-you-state{
     background-color: hsl(213, 19%, 18%);
     border-radius: 30px;
-    margin: 10%;
+    margin: 100px auto;
     width: 350px;
     height: 350px;
     display: none;
@@ -65,7 +64,7 @@ div.inner-container-thank{
     text-align: center;
 }
 
-p.selection {
+p#selection {
     display: flex;
     color: hsl(25, 97%, 53%);
     background-color: hsl(217, 10%, 35%);
@@ -81,6 +80,14 @@ p {
 }
 
 div.attribution {
-    display: flex;
+    display: block;
     align-items: flex-end;
+}
+
+div.hidden {
+    display: none;
+}
+
+div.show {
+    display: block;
 }
